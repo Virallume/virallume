@@ -1,0 +1,40 @@
+{
+  "name": "virallume",
+  "version": "1.0.0",
+  "description": "Transform selected text into trending social media posts using AI",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build:main && npm run build:content && npm run build:background",
+    "build:main": "vite build",
+    "build:content": "vite build --mode content",
+    "build:background": "vite build --mode background",
+    "preview": "vite preview",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.5",
+    "@mui/material": "^5.15.5",
+    "crypto-js": "^4.2.0",
+    "openai": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "@types/crypto-js": "^4.2.1",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jest": "^29.5.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "eslint": "^8.40.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.3.3",
+    "vite": "^4.5.1"
+  }
+}
