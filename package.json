@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Transform selected text into trending social media posts using AI",
   "type": "module",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "npm run build:main && npm run build:content && npm run build:background",
