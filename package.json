@@ -12,6 +12,7 @@
     "preview": "vite preview",
     "test": "jest",
     "lint": "eslint src"
+    "start": "vite"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
