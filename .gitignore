@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-dist/
+# dist/  # Commenting this line to track build files
 
 # Build files
 build/
